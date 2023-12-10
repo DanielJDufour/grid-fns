@@ -1,6 +1,6 @@
 {
   "name": "grid-fns",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Functions for working with Grids",
   "main": "./index.js",
   "files": [
