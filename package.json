@@ -1,0 +1,29 @@
+{
+  "name": "grid-fns",
+  "version": "0.0.0",
+  "description": "Functions for working with Grids",
+  "main": "./index.js",
+  "files": [
+    "./calc_cell_size.js",
+    "./index.js",
+    "./prepare_snap.js",
+    "./prepare_unsnap.js",
+    "row-major/id_to_rowcol.js",
+    "row-major/rowcol_to_id.js"
+  ],
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/grid-fns.git"
+  },
+  "keywords": [
+    "grid",
+    "snap",
+    "unsnap"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0"
+}
